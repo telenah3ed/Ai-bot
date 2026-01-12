@@ -1,0 +1,4 @@
+python-telegram-bot==20.6
+requests
+openai>=1.0.0
+flask
