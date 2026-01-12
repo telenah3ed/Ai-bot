@@ -1,0 +1,16 @@
+# Exported from Render on 2026-01-12T19:48:40Z
+version: "1"
+projects:
+- name: My project
+  environments:
+  - name: Production
+    services:
+    - type: web
+      name: Ai-bot
+      runtime: python
+      repo: https://github.com/telenah3ed/Ai-bot
+      plan: free
+      region: virginia
+      buildCommand: pip install -r requirements.txt
+      startCommand: python bot.py
+      autoDeployTrigger: commit
