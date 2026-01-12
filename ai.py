@@ -25,14 +25,14 @@ logger = logging.getLogger(__name__)
 # ===============================
 BOT_TOKEN = "8503553442:AAFaxWysqaN49_7ZGhWhUEMOa6p6LJ577-A"  # আপনার বট টোকেন
 PRIVATE_CHANNEL_ID = -1003393383836  # প্রাইভেট চ্যানেল আইডি
-PUBLIC_CHANNEL_ID = "@"  # পাবলিক চ্যানেল ইউজারনেম (e.g., @channel)
+PUBLIC_CHANNEL_ID = "@ainah3ed"  # পাবলিক চ্যানেল ইউজারনেম (e.g., @channel)
 PRIVATE_INVITE = "https://t.me/+IbAbucfcAwlmMzE1"
-PUBLIC_LINK = "https://t.me/csbgiveaway"
-ADMIN_IDS = [6047963934]  # আপনার অ্যাডমিন আইডি
+PUBLIC_LINK = "https://t.me/ainah3ed"
+ADMIN_IDS = [8269166427]  # আপনার অ্যাডমিন আইডি
 
 # --- Developer & Powered by Links ---
-DEVELOPER_USERNAME = "mybiocsb"  # Developer's username without @
-POWERED_BY_LINK = "https://t.me/cybersentinelbangladesh"
+DEVELOPER_USERNAME = "nah3ed"  # Developer's username without @
+POWERED_BY_LINK = "https://t.me/ainah3ed"
 
 USERS_FILE = "csb_users_db.json"
 DEFAULT_CREDITS = 100  # নতুন ইউজারকে ডিফল্ট কত ক্রেডিট দেওয়া হবে
@@ -599,3 +599,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
