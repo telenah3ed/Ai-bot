@@ -23,9 +23,9 @@ logger = logging.getLogger(__name__)
 # ===============================
 # 🔐 BOT CONFIGURATION
 # ===============================
-BOT_TOKEN = "8395463326:AAE9-KFXgIu27io1fJyFdUaNip6fB0JHv2M"  # আপনার বট টোকেন
-PRIVATE_CHANNEL_ID = -1003051222605  # প্রাইভেট চ্যানেল আইডি
-PUBLIC_CHANNEL_ID = "@csbgiveaway"  # পাবলিক চ্যানেল ইউজারনেম (e.g., @channel)
+BOT_TOKEN = "8503553442:AAFaxWysqaN49_7ZGhWhUEMOa6p6LJ577-A"  # আপনার বট টোকেন
+PRIVATE_CHANNEL_ID = -1003393383836  # প্রাইভেট চ্যানেল আইডি
+PUBLIC_CHANNEL_ID = "@"  # পাবলিক চ্যানেল ইউজারনেম (e.g., @channel)
 PRIVATE_INVITE = "https://t.me/+IbAbucfcAwlmMzE1"
 PUBLIC_LINK = "https://t.me/csbgiveaway"
 ADMIN_IDS = [6047963934]  # আপনার অ্যাডমিন আইডি
@@ -597,4 +597,5 @@ def main():
 # ===============================
 
 if __name__ == "__main__":
+
     main()
